@@ -6,8 +6,8 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'DMS',
-  meta: [{ name: 'DMS', content: 'DMS' }],
+  title: 'MDS',
+  meta: [{ name: 'MDS', content: 'MDS' }],
   link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   bodyAttrs: {
     class: 'body',
@@ -15,4 +15,4 @@ useHead({
 })
 </script>
 
-<style lang="scss"></style>
+<style src="@/assets/css/main.scss" lang="scss"></style>

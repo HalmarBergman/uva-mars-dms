@@ -1,7 +1,12 @@
 <template>
-  <div class="index">
-    <h1>Matt Damon Scheduler</h1>
-    <img src="~/assets/images/mattdamon.png" alt="Matt Damon" />
+  <div class="page index">
+    <div class="content">
+      <h1>DMS</h1>
+      <img src="~/assets/images/mars.png" />
+    </div>
+    <div class="background">
+      <img src="~/assets/images/space.png" />
+    </div>
   </div>
 </template>
 
@@ -9,9 +14,21 @@
 
 <style scoped lang="scss">
 .index {
-  width: 100vw;
-  img {
-    width: 50%;
+  h1 {
+    color: white;
+  }
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }
 </style>
