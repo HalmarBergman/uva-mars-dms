@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import '~/assets/css/_variables.scss';
+@import '~/assets/css/text.scss';
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
 #app {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(28, 28, 39);
+  background-color: $off-white;
+}
+
+.body {
+  margin: 0;
 }
 
 .page {

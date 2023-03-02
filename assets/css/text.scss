@@ -1,0 +1,128 @@
+// For all the text styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+span,
+label,
+input,
+textarea {
+  font-weight: 400;
+  &.semibold {
+    font-weight: 600;
+  }
+  &.bold {
+    font-weight: 700;
+  }
+  &.white {
+    color: $white;
+  }
+  &.off-white {
+    color: $off-white;
+  }
+  &.grey-dark {
+    color: $grey-dark;
+  }
+  &.primary {
+    color: $primary;
+    &.light {
+      color: $primary-light;
+    }
+    &.dark {
+      color: $primary-dark;
+    }
+  }
+}
+
+// Page Headers
+h1 {
+  font-family: $poppins, sans-serif;
+  font-size: 40px;
+  color: $grey-dark;
+}
+
+// Section Headers
+h2 {
+  font-family: $poppins, sans-serif;
+  font-size: 36px;
+  margin: 5px 0px 5px 0px;
+  color: $grey-dark;
+}
+
+// Subsection Headers
+h3 {
+  font-family: $poppins, sans-serif;
+  font-size: 32px;
+  margin: 5px 0px 5px 0px;
+  color: $grey-dark;
+}
+
+// CardHeader
+h4 {
+  font-family: $poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px 0px 5px 0px;
+  color: $grey-dark;
+}
+
+// Text
+h5 {
+  font-family: $openSans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px 0px 20px 0px;
+  color: $grey-dark;
+}
+
+// Text
+h6 {
+  font-family: $openSans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px 0px 5px 0px;
+  color: $grey-dark;
+}
+
+// Lots of text
+p {
+  font-family: $openSans, sans-serif;
+  font-size: 14px;
+  margin: 3px 0px 10px 0px;
+  color: $grey-dark;
+}
+
+@media (width > 1264px) {
+  h1 {
+    font-size: 64px;
+    line-height: 72px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  h3 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  h4 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
