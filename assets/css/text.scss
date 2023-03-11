@@ -25,7 +25,7 @@ textarea {
   &.off-white {
     color: $off-white;
   }
-  &.grey-dark {
+  &.grey {
     color: $grey-dark;
   }
   &.primary {
@@ -65,7 +65,7 @@ h3 {
 // CardHeader
 h4 {
   font-family: $poppins, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0px;
   color: $grey-dark;
@@ -85,6 +85,7 @@ h6 {
   font-family: $openSans, sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 115%;
   margin: 0px;
   color: $grey-dark;
 }

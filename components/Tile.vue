@@ -18,9 +18,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-height: 100%;
+  height: 100%;
   background: linear-gradient(45deg, rgba(35, 35, 35, 0) 0%, rgba(40, 40, 40, 0.5) 100%);
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
   gap: 10px;
   .tile-header {
@@ -39,32 +39,37 @@
 
 @media (min-width: 768px) {
   .tile {
-    &.nine {
-      width: 9%;
-    }
-    &.nineteen {
+    &.one-fifth {
       width: 19%;
     }
-    &.twenty-nine {
-      width: 29%;
-    }
-    &.thrity-nine {
+    &.two-fifth {
       width: 39%;
     }
-    &.forty-nine {
-      width: 49%;
-    }
-    &.fifty-nine {
+    &.three-fifth {
       width: 59%;
     }
-    &.sixty-nine {
-      width: 69%;
-    }
-    &.seventy-nine {
+    &.four-fifth {
       width: 79%;
     }
-    &.eighty-nine {
-      width: 89%;
+
+    &.one-fourth {
+      width: 24%;
+    }
+    &.two-fourth {
+      width: 49%;
+    }
+    &.three-fourth {
+      width: 74%;
+    }
+    &.halve {
+      width: 49.5%;
+    }
+
+    &.one-third {
+      width: 32%;
+    }
+    &.two-third {
+      width: 66.5%;
     }
     &.hundred {
       width: 100%;
